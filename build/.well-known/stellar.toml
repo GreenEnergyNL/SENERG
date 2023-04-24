@@ -1,31 +1,30 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 ACCOUNTS=[
-"GCI6EPRQ6DHSBU522OAYPPTWZ5UIHK235K6DOKP23F75QB233SN7QWL6"
+"GDAXEDEOWTUSBZVTGUPBT2MPH7UGEAJG7X4DZGVG26JNP43NHBURHA27"
 ]
 VERSION="2.0.0" 
 
 [DOCUMENTATION]
-ORG_NAME="GreenStep Project"
-ORG_DBA="GreenStep"
-ORG_URL="https://greenstepproject.org"
-ORG_DESCRIPTION="Power your steps, pave the way to a sustainable future"
-ORG_TWITTER="@GStepProject"
-ORG_LOGO="https://i.ibb.co/ThzSRft/Group-4.png"
-ORG_OFFICIAL_EMAIL="support@greenstepproject.com"
+ORG_NAME="Sun Energy"
+ORG_DBA="SENERG"
+ORG_URL="www.senerg.org"
+ORG_DESCRIPTION="Company harnesses photosynthesis to produce renewable energy."
+ORG_TWITTER="@SENERG"
+ORG_LOGO="https://i.ibb.co/5cKM6Nx/Group-3.png"
+ORG_OFFICIAL_EMAIL="greenenergynetherlands@gmail.com"
 
 [[CURRENCIES]]
 code="GSTP"
-issuer="GCI6EPRQ6DHSBU522OAYPPTWZ5UIHK235K6DOKP23F75QB233SN7QWL6"
+issuer="GDAXEDEOWTUSBZVTGUPBT2MPH7UGEAJG7X4DZGVG26JNP43NHBURHA27"
 status="live"
 is_asset_anchored = true
 anchor_asset_type = 'fiat'
-anchor_asset = 'GSTP'
-redemption_instructions="GSTP available on ERC-20 and BEP-20"
-name="GreenStep"
-desc="GreenStep is a clean technology company that specializes in converting footsteps into renewable energy. Their innovative flooring system uses a series of tiles that generate electricity every time someone steps on them, which can be used to power streetlights, buildings, and other applications. GreenStep's mission is to create sustainable, smart cities by harnessing the power of human movement."
-conditions="The GreenStep system has multiple utilities. It generates renewable energy from footsteps and can be used to power public lighting, indoor lighting, and off-grid applications. It also has data capture capabilities, providing real-time information on foot traffic patterns and environmental conditions, which can be used for analytics, marketing, and other purposes. Additionally, GreenStep's interactive design can enhance public engagement and promote sustainable behavior."
-image="https://i.ibb.co/ThzSRft/Group-4.png"
+anchor_asset = 'SENERG'
+redemption_instructions="SENERG available on ERC-20 and BEP-20"
+name="SENERG"
+desc="SENERG company is revolutionizing the renewable energy industry by tapping into the power of photosynthesis. With our innovative technology, we are able to produce clean and sustainable energy, while also contributing to a greener future for generations to come."
+conditions="Looking for a sustainable and eco-friendly energy solution? Look no further than our company, where we are using the natural process of photosynthesis to generate renewable energy. With our cutting-edge technology, we're able to produce electricity in a way that's both environmentally friendly and economically viable."
+image="https://i.ibb.co/5cKM6Nx/Group-3.png"
 fixed_number=1240000000
 max_number=1240000000
 is_unlimited=false
-#Stratum was issued using the open and inclusive Stellar blockchain network.
